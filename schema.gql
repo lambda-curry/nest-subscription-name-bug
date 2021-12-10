@@ -1,0 +1,16 @@
+# ------------------------------------------------------
+# THIS FILE WAS AUTOMATICALLY GENERATED (DO NOT MODIFY)
+# ------------------------------------------------------
+
+type Subscription {
+  id: String!
+  orders: [Order!]
+}
+
+type Order {
+  id: String!
+}
+
+type Query {
+  subscriptions: [Subscription!]!
+}
